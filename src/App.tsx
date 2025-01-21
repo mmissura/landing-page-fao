@@ -105,7 +105,7 @@ export const App = () => {
         opacity-80 from-cyan-500 to-blue-500 py-12 px-20 
         shadow-lg w-full text-center text-sm m-auto"
       >
-        Copyright © 2024 FAO Holdings. All rights reserved. Developed by
+        Copyright © 2025 FAO Holdings. All rights reserved. Developed by
         <a
           href="http://missura.com.br"
           target="_blank"
