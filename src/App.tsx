@@ -2,6 +2,7 @@ import Img from './assets/images/puravive5.png';
 import Logo from './assets/images/logo.svg';
 
 export const App = () => {
+  const getYear = new Date().getFullYear();
   return (
     <div className="w-full">
       <div className="flex justify-center items-center">
@@ -105,7 +106,7 @@ export const App = () => {
         opacity-80 from-cyan-500 to-blue-500 py-12 px-20 
         shadow-lg w-full text-center text-sm m-auto"
       >
-        Copyright © 2025 FAO Holdings. All rights reserved. Developed by
+        Copyright © {getYear} FAO Holdings. All rights reserved. Developed by
         <a
           href="http://missura.com.br"
           target="_blank"
